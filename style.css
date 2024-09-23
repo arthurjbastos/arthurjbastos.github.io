@@ -1,0 +1,37 @@
+/* Definir a altura e a largura da tela completa */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Fundo de universo */
+body {
+    background-image: url('https://www.solarsystemscope.com/textures/download/8k_stars_milky_way.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo do container */
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+}
+
+/* Estilo do timer */
+#timer {
+    font-size: 80px;
+    color: #fff;
+    font-weight: bold;
+}
