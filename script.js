@@ -1,5 +1,5 @@
 // URL do servidor que retorna o tempo de término
-const serverURL = 'http://localhost:3000/end-time'; // Alterar para o URL real do servidor
+const serverURL = 'https://arthurjbastos.github.io/end-time'; // Alterar para o URL real do servidor
 
 let endTime;
 
