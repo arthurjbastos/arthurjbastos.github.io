@@ -1,5 +1,5 @@
 // URL do servidor que retorna o tempo de término
-const serverURL = 'https://arthurjbastos.github.io/end-time'; // Alterar para o URL real do servidor
+const serverURL = 'https://arthurjbastos-github-io.vercel.app/'; // Alterar para o URL real do servidor
 
 let endTime;
 
